@@ -1,0 +1,113 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.card {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    border-radius: 10px;  
+    font-family: Montserrat;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+}
+
+img {
+   width: 100%;
+   border-radius: 10px 10px 0 0;
+}
+.contents {
+    width: 16rem;
+}
+.heading {
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 1rem;
+    letter-spacing: 0.4rem;
+    font-size: 0.7rem;
+}
+h1 {
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+    margin-top: 1rem;
+    font-weight: 700;
+}
+p {
+    font-weight: 500;
+    word-spacing: 1px;
+    line-height: 1rem;
+}
+button {
+    display: flex;
+    justify-content: center;
+    width: 190%;
+    background-color: hsl(158, 36%, 37%);
+    height: 40px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    color: hsl(0, 0%, 100%);
+    border:0;
+    font-weight: 700;
+    align-items: center;
+}
+.pay {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.price {
+    font-family: Fraunces;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.new {
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+    
+}
+@media (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 29rem;
+
+        
+    }
+    .contents {
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 0;
+    }
+    .img { 
+       width:55%;
+    }
+    .img2 {
+       margin-bottom: -4px;
+       border-radius: 0;
+    }
+    img {
+        border-radius: 10px 0 0 10px;}
+    .img1 {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .img2 {display: none;}
+}
