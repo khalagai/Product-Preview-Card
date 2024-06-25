@@ -61,6 +61,10 @@ button {
     font-weight: 700;
     align-items: center;
 }
+button:hover {
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%);
+}
 .pay {
     display: flex;
     align-items: center;
